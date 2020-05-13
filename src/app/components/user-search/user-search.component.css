@@ -1,0 +1,9 @@
+.user-search-container {
+  
+}
+
+input:focus,
+input:active {
+    outline: none;
+    box-shadow: none;
+}

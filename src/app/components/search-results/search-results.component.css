@@ -1,0 +1,59 @@
+.search-results-container {
+    margin-top: 20px;
+    background-color: #c8d6e5;
+    border-radius: 20px;
+    padding: 50px;
+    margin-bottom: 70px;
+}
+
+p {
+    color: black;
+}
+
+img {
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+button {
+    margin: 4px;
+}
+
+.user-followers-section .list-group-item,
+.user-following-section .list-group-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black; 
+    background-color: #c8d6e5; 
+    margin: 4px;
+}
+
+.user-followers-section {
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.user-following-section {
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.user-repositories {
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* .repos-left {
+    width: 50%;
+}
+
+.repos-right {
+    width: 50%;
+} */
+
+

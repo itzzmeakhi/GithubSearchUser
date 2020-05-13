@@ -1,0 +1,26 @@
+<div class = "user-search-container">
+
+    <form [formGroup] = "userToSearchForm">
+
+        <div class = "form-group">
+
+            <label for = "userToSearch"> UserName </label>
+
+            <input
+                type = "text"
+                class = "form-control form-control-sm"
+                name = "userToSearch"
+                formControlName = "userToSearch"
+                id = "userToSearch"
+                (keyup.enter) = "onSearchUser()"
+                placeholder = "Ex: itzzmeakhi"
+                autocomplete = "off">
+
+        </div>
+
+        <span> Type username and press Enter :) </span>
+
+    </form>
+
+
+</div>
